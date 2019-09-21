@@ -6,8 +6,10 @@ class Habilidades extends React.Component {
     render() {
         return(
             <div className="habilidades-container">
-            <Habilidade/>
-                
+            <Habilidade porcentagem={5} nome="React" />
+            <Habilidade porcentagem={30} nome="Python" />
+                 
+                            
             </div>
         );
     }

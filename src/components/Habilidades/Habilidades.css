@@ -1,9 +1,33 @@
 .habilidades-container {
-    margin: 20px;
     height: 100vh;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
     align-content: center;
     align-items: center;
-    background-color: paleturquoise;
+    justify-content: space-around;
+    background-color: rgb(111, 0, 255);
+
+}
+
+.barrinha-container {
+    border: 2px solid white;
+    border-radius: 30px;
+    flex: 1;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.habilidade-container {
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+    flex-direction: row;
+
+}
+
+.preenchimentoBarrinha {
+    background-color: white;
+    border-radius: 30px;
 }

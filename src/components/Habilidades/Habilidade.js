@@ -1,26 +1,22 @@
 import React from "react";
-import Habilidade from "./Habilidade";
 import "./Habilidades.css";
 
 class Habilidades extends React.Component {
     render() {
         return(
-            <div>
+            <div className="habilidade-container">
                 {/*Nome da habilidade*/}
                 <div>{this.props.nome}</div>
-
+                
                 {/* A barrinha em si */}
-                <div>
+                <div className="barrinha-container"> 
                     {/*Parte preenchida*/ }
-                    <div />
-
+                    <div
+                    className="preenchimentoBarrinha"
+                    style={{backgroundColor: "#ffffff", flex:this.props.porcentagem}}
+                    />
                     {/*Parte que falta*/ }
-                    <div />
-                </div>
-
-                {/*A barrinha*/}
-                <div>
-
+                    <div style={{flex: 100 - this.props.porcentagem}}/>
                 </div>
             </div>
         );
