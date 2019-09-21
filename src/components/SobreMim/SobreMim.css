@@ -1,0 +1,24 @@
+.sobre-mim-container{
+    margin: 20px;
+    height: 100vh;
+    flex-direction: row;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.foto-container{
+    display: flex;
+}
+
+.foto-perfil{
+    height: 200px;
+    border: 8px solid palevioletred;
+    border-radius: 150px;
+}
+
+.texto-container{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+.habilidades-container {
+    margin: 20px;
+    height: 100vh;
+    flex-direction: row;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: paleturquoise;
+}

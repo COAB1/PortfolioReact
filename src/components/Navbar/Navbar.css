@@ -1,0 +1,13 @@
+.navbar {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    border-bottom: 2px solid #ececec;
+    background-color: palevioletred;
+    width: 100%;
+}
+
+.navbar-item {
+    flex: 1;
+    text-align: center;
+  }
